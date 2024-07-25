@@ -267,7 +267,12 @@
   --animate-ping: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
   --animate-pulse: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
   --animate-bounce: bounce 1s infinite;
-
+  --animate-flip: flip 1s ease-in-out infinite;
+  --animate-fade: fade 2s ease-in infinite;
+  --animate-slide: slide 1s ease-out infinite;
+  --animate-zoom: zoom 1.5s ease-in-out infinite;
+  --animate-rotate: rotate 2s linear infinite;
+  
   /* Blurs */
   --blur: 8px;
   --blur-sm: 4px;
@@ -276,6 +281,7 @@
   --blur-xl: 24px;
   --blur-2xl: 40px;
   --blur-3xl: 64px;
+  --blur-4xl: 82px;
 
   /* Radii */
   --radius: 0.25rem;
@@ -370,6 +376,12 @@
   --font-family-serif: ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif;
   --font-family-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono',
     'Courier New', monospace;
+  --font-family-cursive: 'Comic Sans MS', 'Comic Sans', cursive, 'Brush Script MT', 'Segoe Script';
+  --font-family-fantasy: 'Papyrus', 'Impact', fantasy, 'Jokerman', 'Playbill';
+  --font-family-gothic: 'Century Gothic', 'Apple Gothic', sans-serif, 'Arial', 'Helvetica';
+  --font-family-handwriting: 'Patrick Hand', 'Handlee', cursive, 'Dancing Script', 'Indie Flower';
+  --font-family-technical: 'OCR A Std', 'Andale Mono', monospace, 'Consolas', 'Courier New';
+  --font-family-decorative: 'Lobster', 'Pacifico', cursive, 'Great Vibes', 'Abril Fatface';
 
   /* Type scale */
   --font-size-xs: 0.75rem;
